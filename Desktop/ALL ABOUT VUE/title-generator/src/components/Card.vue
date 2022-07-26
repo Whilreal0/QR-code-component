@@ -9,10 +9,10 @@
           <v-btn id="btn"  icon @click="generate" ><v-icon large>mdi-cached</v-icon></v-btn>
         </v-col>
         <v-col class="">
-          <v-btn id="btn"  icon @click="copy"><v-icon >mdi-content-copy</v-icon> <router-lnk></router-lnk></v-btn>
+          <v-btn id="btn"  icon @click="copy" disabled><v-icon >mdi-content-copy</v-icon> <router-lnk></router-lnk></v-btn>
         </v-col>
         <v-col class="">
-          <v-btn id="btn" icon @click="generate" ><router-lnk to= ""><v-icon large id="icon">mdi-share</v-icon></router-lnk></v-btn>
+          <v-btn id="btn" icon @click="" disabled><router-lnk to= ""><v-icon large id="icon">mdi-share</v-icon></router-lnk></v-btn>
         </v-col>
       </v-card-actions>
     </div>
