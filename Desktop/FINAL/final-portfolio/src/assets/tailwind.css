@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+    .home-section{
+        @apply 
+            
+            bg-custom-primary
+            pt-[50px]
+            text-custom-gray
+            pb-[50px]
+    }
+    .custom-btn {
+        @apply 
+            font-semibold 
+            py-1 px-4  rounded-[5px]
+            bg-custom-tertiary
+            text-white
+            cursor-pointer
+    }
+    .custom-hero-h2{
+        @apply
+            text-base
+            mb-2.5
+            font-normal
+
+    }
+    .custom-hero-h1{
+        @apply
+            p-0
+            relative
+            block
+            text-[25px]
+            text-center
+            mb-2.5
+            font-medium
+            
+    }
+    .custom-underline{
+        @apply
+            relative
+            after:content-['']
+            after:absolute
+            after:w-full
+            after:h-[2px]
+            after:bg-custom-tertiary
+            after:left-0
+            after:bottom-0
+    }
+    .custom-hero-p{
+        @apply
+            text-sm
+            text-custom-gray-2
+    }
+    .custom-hero-img{
+        @apply
+            w-[280px]
+            max-w-[330px]
+            mx-auto
+            mb-[50px]
+            
+            
+    }
+    .custom-hero-design{
+        @apply
+            absolute
+            right-0
+            left-0
+            bg-custom-primary
+    }
+    .custom-heading-1{
+        @apply
+        text-4xl text-custom-tertiary font-bold text-center
+    }
+    .custom-subheading-1{
+        @apply  
+            text-custom-gray-2 
+            text-sm
+            relative
+            pb-1
+            before:content-['']
+            before:absolute
+            before:h-[10px]
+            before:rounded-[50%]
+            before:aspect-square
+            before:bg-custom-tertiary
+            before:bottom-[-4px]
+            before:left-[47.5%]
+            after:content-['']
+            after:absolute
+            after:h-[2px]
+            after:w-full
+            after:bg-custom-tertiary
+            after:bottom-0
+            after:left-0
+    }
+}
